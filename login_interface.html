@@ -1,0 +1,191 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<title>Login - MSU-TCTO S-ECE</title>
+		 <link rel="shortcut icon" href="assets/img/logg.jpg" type="image/x-icon" />
+
+
+		<link href="assets/css/bootstrap.css" rel="stylesheet" />
+		<link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+		<link href="assets/css/flexslider.css" rel="stylesheet" />
+		<link href="assets/css/style.css" rel="stylesheet" />   
+
+			<!--  Jquery Core Script -->
+		<script src="assets/js/jquery-1.10.2.js"></script>
+		<!--  Core Bootstrap Script -->
+		<script src="assets/js/bootstrap.js"></script>
+		<!--  Flexslider Scripts --> 
+			 <script src="assets/js/jquery.flexslider.js"></script>
+		 <!--  Scrolling Reveal Script -->
+		<script src="assets/js/scrollReveal.js"></script>
+		<!--  Scroll Scripts --> 
+		<script src="assets/js/jquery.easing.min.js"></script>
+		<!--  Custom Scripts --> 
+			 <script src="assets/js/custom.js"></script>
+	 
+	</head>
+	<body style="background-color: #1bc3c9;">
+		<div class="container">
+			<div class="row text-center " >
+				<div class="flexslider set-flexi" id="main-section" >
+					<ul class="slides move-me">
+						<!-- Slider 01 -->
+						<li>
+							  <h5>MINDANAO STATE UNIVERSITY<br>
+								TAWI-TAWI COLLEGE OF TECHNOLOGY AND OCEANOGRAPHY</h5>
+								<h3>SOCIO-EDUCATIONAL CYBER ENVIRONMENT</h3>
+						   <h1 style="font-family: tahoma; font-size: 60px;">WELCOME</h1>
+							<a href="#features-sec" class="btn btn-success btn-lg" data-toggle="modal" data-target="#ln">
+								STUDENT
+							</a>
+							 <a href="#features-sec" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#su">
+								INSTRUCTOR
+							</a>
+						</li>
+						<!-- End Slider 01 -->
+						
+						<!-- Slider 02 -->
+						<li>
+							<h5>MINDANAO STATE UNIVERSITY<br>
+								TAWI-TAWI COLLEGE OF TECHNOLOGY AND OCEANOGRAPHY</h5>
+								<h3>SOCIO-EDUCATIONAL CYBER ENVIRONMENT</h3>
+						   <h1 style="font-family: tahoma; font-size: 60px;">TO THE NEW ERA!</h1>
+							 <a href="#features-sec" class="btn btn-success btn-lg" data-toggle="modal" data-target="#ln">
+								STUDENT
+							</a>
+							 <a href="#features-sec" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#su">
+								INSTRUCTOR
+							</a>
+						</li>
+						<!-- End Slider 02 -->
+						
+						<!-- Slider 03 -->
+						<li>
+							<h5>MINDANAO STATE UNIVERSITY<br>
+								TAWI-TAWI COLLEGE OF TECHNOLOGY AND OCEANOGRAPHY</h5>
+								<h3>SOCIO-EDUCATIONAL CYBER ENVIRONMENT</h3>
+						   <h1 style="font-family: tahoma; font-size: 60px;">SEE YOUR GRADES</h1>
+							 <a href="#features-sec" class="btn btn-success btn-lg" data-toggle="modal" data-target="#ln">
+								STUDENT
+							</a>
+							 <a href="#features-sec" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#su">
+								INSTRUCTOR
+							</a>
+						</li>
+						<!-- End Slider 03 -->
+						
+						<!-- Slider 04 -->
+						<li>
+							<h5>MINDANAO STATE UNIVERSITY<br>
+								TAWI-TAWI COLLEGE OF TECHNOLOGY AND OCEANOGRAPHY</h5>
+								<h3>SOCIO-EDUCATIONAL CYBER ENVIRONMENT</h3>
+						   <h1 style="font-family: tahoma; font-size: 60px;">WHAT YOU'RE<br>CURRENTLY ENROLLED</h1>
+							 <a href="#features-sec" class="btn btn-success btn-lg" data-toggle="modal" data-target="#ln">
+								STUDENT
+							</a>
+							 <a href="#features-sec" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#su">
+								INSTRUCTOR
+							</a>
+						</li>
+						<!-- End Slider 04 -->
+						
+						<!-- Slider 05 -->
+						<li>
+							<h5>MINDANAO STATE UNIVERSITY<br>
+								TAWI-TAWI COLLEGE OF TECHNOLOGY AND OCEANOGRAPHY</h5>
+								<h3>SOCIO-EDUCATIONAL CYBER ENVIRONMENT</h3>
+						   <h1 style="font-family: tahoma; font-size: 60px;">CHAT YOUR CLASSMATES<br>AND TEACHERS</h1>
+							 <a href="#features-sec" class="btn btn-success btn-lg" data-toggle="modal" data-target="#ln">
+								STUDENT
+							</a>
+							 <a href="#features-sec" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#su">
+								INSTRUCTOR
+							</a>
+						</li>
+						<!-- End Slider 05 -->
+						
+						<!-- Slider 05 -->
+						<li>
+							<h5>MINDANAO STATE UNIVERSITY<br>
+								TAWI-TAWI COLLEGE OF TECHNOLOGY AND OCEANOGRAPHY</h5>
+								<h3>SOCIO-EDUCATIONAL CYBER ENVIRONMENT</h3>
+						   <h1 style="font-family: tahoma; font-size: 60px;">AND MANY MORE...</h1>
+							 <a href="#features-sec" class="btn btn-success btn-lg" data-toggle="modal" data-target="#ln">
+								STUDENT
+							</a>
+							 <a href="#features-sec" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#su">
+								INSTRUCTOR
+							</a>
+						</li>
+						<!-- End Slider 05 -->
+					</ul>
+				</div>
+				<h5><?php echo $login_failed?></h5>
+			</div>
+		</div>
+	   
+	   <div class="modal fade" id="ln" tabindex="-1" role="dialog" aria-labelledby="myMediulModalLabel">
+          <div class="modal-dialog modal-sm">
+            <div style="color:white; background-color:#16639f" class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 style="color:white" class="modal-title" id="myModalLabel">Student Login</h4>
+				</div>
+				<div class="modal-body">
+
+					<form method="post" action="index.php">
+						<fieldset>
+							<div class="form-group">
+								<input class="form-control" placeholder="ID Number" name="student_id_number" required>
+							</div>
+							
+							<div class="form-group">
+								<input class="form-control" placeholder="Password" name="student_password" type="password" required>
+							</div>
+						</fieldset>
+
+				</div>
+				<div class="modal-footer">
+				   
+					<button class="btn btn-md btn-success btn-block" name="user_login"><b class="glyphicon-log-in"></b> Sign In</button>
+					</form>
+					   
+				</div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="modal fade" id="su" tabindex="-1" role="dialog" aria-labelledby="myMediulModalLabel">
+			<div class="modal-dialog modal-sm">
+				<div style="color:white; background-color:#44b00f" class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 style="color:white" class="modal-title" id="myModalLabel">Instructor Login</h4>
+					</div>
+					<div class="modal-body">
+					
+						<form role="form" method="post" action="index.php">
+							<fieldset>
+								<div class="form-group">
+									<input class="form-control" placeholder="ID Number" name="instructor_id_number" required>
+								</div>
+								
+								<div class="form-group">
+									<input class="form-control" placeholder="Password" name="instructor_password" type="password" required>
+								</div>
+							</fieldset>
+                  
+            
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-md btn-primary btn-block" name="user_login"><b class="glyphicon-log-in"></b> Sign In</button>
+						</form> 
+					</div>
+				</div>
+			</div>
+        </div>
+	   </body>
+	   </html>

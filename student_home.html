@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - MSU-TCTO S-ECE</title>
+	 <link rel="shortcut icon" href="../assets/img/log.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/local.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+   
+    
+</head>
+<body>
+	<div id="wrapper">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+			<div  style="background-color: #373333">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href=""><span class='glyphicon glyphicon-home'></span> MSU-TCTO S-ECE</a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav side-nav" style="background-color: #443f3f;">
+						<li><a href=""> &nbsp; &nbsp; &nbsp; LIST OF CLASSES<b class="caret"></b></a></li>      
+					</ul>
+					<ul class="nav navbar-nav">
+						<li><a href="">ABOUT</a></li>
+						<li><a href="">VIEW GRADES</a></li>
+						<li><a href="">SUBJECT ENROLLED</a></li>
+						<li><a href="">CURICCULUM</a></li>
+						<li><a href="">ACCOUNTS</a></li>
+						<li class="dropdown">
+							<a href="" class="dropdwon-toggle" data-toggle="dropdown">CHAT<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href=""> List of Classes</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href=""><i class="fa fa-user"></i> <?php echo $student_name?></a></li>
+						<li><a href="logout.php"><i class="fa fa-power-off"></i> LOGOUT</a></li>
+					</ul>
+				</div>
+			<div>
+        </nav>
+		
+		<div id="page-wrapper">
+			<h3>Condensed Table</h3><br>
+			<table class="table table-condensed">
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Age</th>
+						<th>Points</th>
+						<th>Death</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Aly Mama</td>
+						<td>22</td>
+						<td>10,000</td>
+						<td>0</td>
+					</tr>
+					
+					<tr>
+						<td>Rowena Alpha</td>
+						<td>24</td>
+						<td>10,000</td>
+						<td>0</td>
+					</tr>
+					
+					<tr>
+						<td>Don't Know</td>
+						<td>74</td>
+						<td>12,000</td>
+						<td>12,000</td>
+					</tr>
+				</tbody>
+			</table>
+		
+		</div>
+	</div>
+</body>
+</html>
